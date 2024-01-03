@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 5px;
+}
+
+div{
+    /* color: red; */
+}
+#id-selector{
+    background-color: blueviolet;
+    
+}
+
+.class{
+    color: yellowgreen;
+}
+div ul li {
+    color: darkorchid;
+}
+.child > p {
+    color: chartreuse;
+}
+
+/* adjacent  plus sign dile porer first element ta ke nibe khali */
+#adjacent + p {    
+    border: 5px solid red;
+}
+
+#genaral ~ p{
+    background-color: aquamarine;
+}
+
+[title ~="attribute"] {
+    background-color: bisque;
+}
