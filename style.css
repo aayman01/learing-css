@@ -4,7 +4,7 @@
 }
 
 div{
-    /* color: red; */
+    color: red;
 }
 #id-selector{
     background-color: blueviolet;
@@ -25,11 +25,22 @@ div ul li {
 #adjacent + p {    
     border: 5px solid red;
 }
-
+ /* ~ sign oitr por oi nam a koto tag thakbe sb hye jabe */
 #genaral ~ p{
     background-color: aquamarine;
 }
 
-[title ~="attribute"] {
+[title ~="attribute"]  {
     background-color: bisque;
+}
+a:link{
+    color: red; 
+
+}
+a:visited{
+    color: green;
+}
+#hover-me:hover{
+    background-color: aqua;
+    border-radius: 15px;
 }
